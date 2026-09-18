@@ -89,7 +89,3 @@ The Passenger table is connected to the CheckInLocation table through the check-
 ## Error Handling
 
 The application uses message dialogs to display database errors directly through the GUI. For example, attempting to create a record with an existing ID results in a primary key violation message. Similarly, attempting to use a non-existing check-in location for a passenger results in a foreign key violation.
-
-## Project Purpose
-
-The purpose of this project was to develop a simple, user-friendly airport information system that demonstrates object-oriented programming, graphical user interface development, database management, and CRUD functionality.
